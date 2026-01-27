@@ -7,7 +7,7 @@ This repository documents my setup, configuration choices, and any tweaks or wor
 
 ## Services
 
-Right now, I have the following services running:
+Right now, I have the following services running, installed as TrueNAS Apps:
 
 - **ddns-updater** – Automatically updates dynamic DNS records, since I don't have a static public IP.
 - **immich** – A fantastic self-hosted photo and video backup solution, with a familiar Google Photos-like GUI.
