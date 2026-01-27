@@ -39,4 +39,4 @@ While it works in practice and helps save a drive bay, it may cause issues durin
 
 If you want a supported setup, use:
 - A dedicated boot device for the OS
-- A separate SSD or pool for Apps
+- A separate SSD or pool for Apps (like the eMMC that comes with the DXP2800, but I hate eMMC)
