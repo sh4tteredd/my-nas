@@ -26,5 +26,5 @@ Right now, I have the following services running, installed as TrueNAS Apps:
   - [UPS configuration](https://github.com/sh4tteredd/my-nas/blob/main/config/os/ups.md)
 
 - **Services configuration**
-  - [Immich](https://github.com/sh4tteredd/my-nas/blob/main/config/services/immich.md)
+  - [Immich](https://github.com/sh4tteredd/my-nas/blob/main/config/services/immich.md) - WIP
 
