@@ -23,7 +23,7 @@ Right now, I have the following services running, installed as TrueNAS Apps:
   - [Disks & storage layout](https://github.com/sh4tteredd/my-nas/blob/main/config/hardware/disks.md)
 
 - **Operating System**
-  - [TrueNAS & system configuration](https://github.com/sh4tteredd/my-nas/blob/main/config(os/ups.md)
+  - [TrueNAS & system configuration](https://github.com/sh4tteredd/my-nas/blob/main/config/os/ups.md)
 
 - **Services configuration**
   - [Immich](https://github.com/sh4tteredd/my-nas/blob/main/config/services/immich.md)
