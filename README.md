@@ -14,7 +14,7 @@ Right now, I have the following services running, installed as TrueNAS Apps:
 - **[jellyfin](https://jellyfin.org)** – Media server for locally streaming movies and TV series.
 - **[npm](https://nginxproxymanager.com)** – Nginx Proxy Manager for managing reverse proxies and SSL certificates, crucial in order to expose the services to the public. (still thinking about switching to Zoraxy)
 - **[opencloud](https://opencloud.eu)** – Self-hosted file sharing and collaboration platform. The best ownCloud fork, EU-based and without useless features — what Nextcloud should be.
-- **[qbittorrent](https://www.qbittorrent.org)** – Torrent client.
+- **[qbittorrent](https://www.qbittorrent.org) with [gluetun](https://github.com/qdm12/gluetun)** – Torrent client with VPN support.
 
 ## Guides and configs
 
@@ -28,4 +28,5 @@ Right now, I have the following services running, installed as TrueNAS Apps:
 - **Services configuration**
   - [Immich](https://github.com/sh4tteredd/my-nas/blob/main/config/services/immich.md) - WIP
   - [NPM](https://github.com/sh4tteredd/my-nas/blob/main/config/services/nginx.md) - WIP
+  - [qbittorrent+gluetun](https://github.com/sh4tteredd/my-nas/blob/main/config/services/gluetun.md) - WIP
 
