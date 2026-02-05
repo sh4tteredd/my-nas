@@ -63,7 +63,7 @@ services:
     container_name: qbittorrent
     network_mode: service:gluetun
     environment:
-      - PUID=568
+      - PUID=568 #same as TrueNAS apps, so that you can use a normal dataset for apps
       - PGID=568
       - TZ=${TZ}
       - WEBUI_PORT=${QBIT_WEBUI_PORT}
