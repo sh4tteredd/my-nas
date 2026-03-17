@@ -12,7 +12,7 @@ Right now, I have the following services running, installed as TrueNAS Apps:
 - **[ddns-updater](https://github.com/qdm12/ddns-updater)** – Automatically updates dynamic DNS records, since I don't have a static public IP.
 - **[immich](https://immich.app)** – A fantastic self-hosted photo and video backup solution, with a familiar Google Photos-like GUI.
 - **[jellyfin](https://jellyfin.org)** – Media server for locally streaming movies and TV series.
-- **[npm](https://nginxproxymanager.com)** – Nginx Proxy Manager for managing reverse proxies and SSL certificates, crucial in order to expose the services to the public. (still thinking about switching to Zoraxy)
+- **[npm](https://nginxproxymanager.com)** – Nginx Proxy Manager for managing reverse proxies and SSL certificates, crucial in order to expose the services to the public. (still thinking about switching to Caddy but it's not officialy supported as a TrueNAS App)
 - **[opencloud](https://opencloud.eu)** – Self-hosted file sharing and collaboration platform. The best ownCloud fork, EU-based and without useless features — what Nextcloud should be.
 - **[qbittorrent](https://www.qbittorrent.org) with [gluetun](https://github.com/qdm12/gluetun)** – Torrent client with VPN support.
 - **[headscale](https://github.com/juanfont/headscale)** – An open source, self-hosted implementation of the Tailscale control server.
