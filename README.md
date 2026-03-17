@@ -15,6 +15,7 @@ Right now, I have the following services running, installed as TrueNAS Apps:
 - **[npm](https://nginxproxymanager.com)** – Nginx Proxy Manager for managing reverse proxies and SSL certificates, crucial in order to expose the services to the public. (still thinking about switching to Zoraxy)
 - **[opencloud](https://opencloud.eu)** – Self-hosted file sharing and collaboration platform. The best ownCloud fork, EU-based and without useless features — what Nextcloud should be.
 - **[qbittorrent](https://www.qbittorrent.org) with [gluetun](https://github.com/qdm12/gluetun)** – Torrent client with VPN support.
+- **[headscale](https://github.com/juanfont/headscale)** – An open source, self-hosted implementation of the Tailscale control server.
 
 ## Guides and configs
 
@@ -29,4 +30,5 @@ Right now, I have the following services running, installed as TrueNAS Apps:
   - [Immich](https://github.com/sh4tteredd/my-nas/blob/main/config/services/immich.md)
   - [NPM](https://github.com/sh4tteredd/my-nas/blob/main/config/services/nginx.md) - WIP
   - [qbittorrent+gluetun](https://github.com/sh4tteredd/my-nas/blob/main/config/services/gluetun.md)
+  - [headscale](https://github.com/sh4tteredd/my-nas/blob/main/config/services/headscale.md)
 
