@@ -15,7 +15,7 @@ The setup ensures:
 
 The stack consists of two main parts:
 
-1. **Headscale (Container)**: The "Control Plane." It manages security keys and tells nodes how to find each other.
+1. **Headscale (TrueNAS App)**: The "Control Plane." It manages security keys and tells nodes how to find each other.
 2. **Tailscale (TrueNAS App)**: The "Data Plane." It connects to Headscale and acts as a **Subnet Router**, advertising your home network to the rest of the mesh.
 
 ---
