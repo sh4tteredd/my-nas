@@ -11,11 +11,12 @@ I followed these guides to configure Nginx Proxy Manager, since with the OOTB co
 
 ## SSL Certificates
 
-- I actively use the SSL certificates generated and automatically renewed by TrueNAS for my domain.  
-- These certificates cover the main domain and subdomains such as `immich.example.com`.  
-- This ensures secure HTTPS access to all my self-hosted services behind the reverse proxy.
+- I actively use the SSL certificates generated and automatically renewed by NPM for my domain.  
+- **Subdomain Automation:** For every specific subdomain (e.g., `immich.example.com`), I let Nginx Proxy Manager generate that SSL certificate.
+- **Auto-Renewal:** Each subdomain certificate is configured within NPM to handle its own auto-renewal via Let's Encrypt.
+- This ensures secure HTTPS access to all my self-hosted services behind the reverse proxy with zero manual maintenance.
 
 ## Notes
 
-- The guides were extremely helpful, otherwise I wouldn't be able to deploy NPM in TrueNAS.
-- Certificates integration with TrueNAS keeps renewal and management simple and automated.
+- The guides were extremely helpful; otherwise, I wouldn't be able to deploy NPM in TrueNAS.
+- Letting NPM handle the subdomain certificates keeps renewal and management simple, automated, and decoupled from the main TrueNAS UI.
