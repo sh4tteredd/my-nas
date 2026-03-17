@@ -28,7 +28,7 @@ Right now, I have the following services running, installed as TrueNAS Apps:
 
 - **Services configuration**
   - [Immich](https://github.com/sh4tteredd/my-nas/blob/main/config/services/immich.md)
-  - [NPM](https://github.com/sh4tteredd/my-nas/blob/main/config/services/nginx.md) - WIP
+  - [NPM](https://github.com/sh4tteredd/my-nas/blob/main/config/services/nginx.md)
   - [qbittorrent+gluetun](https://github.com/sh4tteredd/my-nas/blob/main/config/services/gluetun.md)
   - [headscale](https://github.com/sh4tteredd/my-nas/blob/main/config/services/headscale.md)
 
