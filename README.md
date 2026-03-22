@@ -12,7 +12,7 @@ Right now, I have the following services running, installed as TrueNAS Apps:
 - **[ddns-updater](https://github.com/qdm12/ddns-updater)** – Automatically updates dynamic DNS records, since I don't have a static public IP.
 - **[immich](https://immich.app)** – A fantastic self-hosted photo and video backup solution, with a familiar Google Photos-like GUI.
 - **[jellyfin](https://jellyfin.org)** – Media server for locally streaming movies and TV series.
-- **[npm](https://nginxproxymanager.com)** – Nginx Proxy Manager for managing reverse proxies and SSL certificates, crucial in order to expose the services to the public. (still thinking about switching to Zoraxy)
+- **[npm](https://nginxproxymanager.com)** – Nginx Proxy Manager for managing reverse proxies and SSL certificates, crucial in order to expose the services to the public. (still thinking about switching to Caddy but it's not officialy supported as a TrueNAS App)
 - **[opencloud](https://opencloud.eu)** – Self-hosted file sharing and collaboration platform. The best ownCloud fork, EU-based and without useless features — what Nextcloud should be.
 - **[qbittorrent](https://www.qbittorrent.org) with [gluetun](https://github.com/qdm12/gluetun)** – Torrent client with VPN support.
 - **[headscale](https://github.com/juanfont/headscale)** – An open source, self-hosted implementation of the Tailscale control server.
@@ -22,13 +22,14 @@ Right now, I have the following services running, installed as TrueNAS Apps:
 - **Hardware**
   - [Hardware overview](https://github.com/sh4tteredd/my-nas/blob/main/config/hardware/hw.md)
   - [Disks & storage layout](https://github.com/sh4tteredd/my-nas/blob/main/config/hardware/disks.md)
+  - [LEDs Configuration](https://github.com/sh4tteredd/my-nas/blob/main/config/hardware/leds.md)
 
 - **Operating System**
   - [UPS configuration](https://github.com/sh4tteredd/my-nas/blob/main/config/os/ups.md)
 
 - **Services configuration**
   - [Immich](https://github.com/sh4tteredd/my-nas/blob/main/config/services/immich.md)
-  - [NPM](https://github.com/sh4tteredd/my-nas/blob/main/config/services/nginx.md) - WIP
+  - [NPM](https://github.com/sh4tteredd/my-nas/blob/main/config/services/nginx.md)
   - [qbittorrent+gluetun](https://github.com/sh4tteredd/my-nas/blob/main/config/services/gluetun.md)
   - [headscale](https://github.com/sh4tteredd/my-nas/blob/main/config/services/headscale.md)
 
