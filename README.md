@@ -22,6 +22,7 @@ Right now, I have the following services running, installed as TrueNAS Apps:
 - **Hardware**
   - [Hardware overview](https://github.com/sh4tteredd/my-nas/blob/main/config/hardware/hw.md)
   - [Disks & storage layout](https://github.com/sh4tteredd/my-nas/blob/main/config/hardware/disks.md)
+  - [LEDs Configuration](https://github.com/sh4tteredd/my-nas/blob/main/config/hardware/leds.md)
 
 - **Operating System**
   - [UPS configuration](https://github.com/sh4tteredd/my-nas/blob/main/config/os/ups.md)
