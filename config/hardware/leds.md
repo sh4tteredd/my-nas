@@ -4,7 +4,7 @@ This document provides a brief overview of the LED configuration used on my UGRE
 
 ## Controller Tool
 
-- **Project:** [UGREEN LEDs Controller](https://github.com/sh4tteredd/install_ugreen_leds_controller)
+- **Project:** [UGREEN LEDs Controller](https://github.com/0x556c79/install_ugreen_leds_controller)
 - **Purpose:** Restoring and managing front panel LED functionality
 
 ## Implementation
